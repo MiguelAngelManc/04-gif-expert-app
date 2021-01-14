@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests de GifGrid Debe mostrar items cuando carga 1`] = `
+<Fragment>
+  <h3>
+    One punch
+  </h3>
+  <div
+    className="card-grid "
+  >
+    <GifGridItem
+      id="ABC"
+      title="Titulo"
+      url="https://blablablalba"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Tests de GifGrid Snapshot de GifGrid 1`] = `
+<Fragment>
+  <h3>
+    One punch
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando... 
+  </p>
+  <div
+    className="card-grid "
+  />
+</Fragment>
+`;

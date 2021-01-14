@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import AddCategory from './AddCategory'
 import GifGrid from './GifGrid'
 
-const GifExpertApp = () =>{
+const GifExpertApp = ( {defaultCategorias=[]} ) =>{
 
     //const categorias = ['One Punch','Samurai X','Dragon Ball']
-    const [categorias, setCategorias] = useState(['One Punch','Samurai X','Dragon Ball'])
+    const [categorias, setCategorias] = useState(defaultCategorias)
 
     // const handleAdd = () =>{
     //     const newCategorias = [...categorias, 'TEST']

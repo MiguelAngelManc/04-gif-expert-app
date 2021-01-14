@@ -22,7 +22,7 @@ const GifGrid = ({categoria}) => {
 }
 
 GifGrid.propTypes = {
-
+    categoria:PropTypes.string.isRequired,
 }
 
 export default GifGrid
